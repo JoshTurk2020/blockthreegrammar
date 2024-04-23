@@ -30,3 +30,28 @@ input {
 .incorrect {
     color: red;
 }
+.topic-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.topic-box:hover {
+    background-color: #f0f0f0;
+}
+
+#rules-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+}
